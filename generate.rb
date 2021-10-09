@@ -72,13 +72,14 @@ puts "#{recs.size} punk(s)"  #=> 10000 punk(s)
 ##
 # let's go - generate all 10 000 using the records
 recs.each_with_index do |rec,i|
-  puts "==> punk #{i}:"
+    indexplusone = i + 1
+  puts "==> punk #{indexplusone}:"
   pp rec
 
   values = rec.values
   punk = generate_punk( *values )
 
-  name = "punk#{i}"
+  name = "punk#{indexplusone}"
 
 # punk.save( "./o/#{name}.png" )
   punk.zoom(50).save( "./o/UBQ#{name}.png" )
