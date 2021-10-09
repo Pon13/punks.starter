@@ -65,7 +65,7 @@ punk.zoom(20).save( "./tmp/punk1@20x.png" )
 ##
 # read in all meta data records of all 10 000 punks
 
-recs = CsvHash.read( './test2.csv' )
+recs = CsvHash.read( './Test.csv' )
 puts "#{recs.size} punk(s)"  #=> 10000 punk(s)
 
 
