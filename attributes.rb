@@ -11,7 +11,6 @@ punks.size
 #=> 10000
 
 
-
 punk = punks[0]
 punk.id
 #=> 0
