@@ -6,7 +6,7 @@
 
 require 'cryptopunks'
 
-punks = Punks::Dataset.read( './punks/*.csv' )
+punks = Punks::Dataset.read( './Test.csv' )
 punks.size
 #=> 10000
 
